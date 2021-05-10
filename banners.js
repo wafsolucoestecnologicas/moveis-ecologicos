@@ -8,4 +8,4 @@ function trocarBanner() {
 	h3.textContent = banners[contador];
 };
 
-setInterval(trocarBanner, 2000);
+setInterval(trocarBanner, 1000);
