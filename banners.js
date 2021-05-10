@@ -1,11 +1,11 @@
-const h2 = document.querySelector('h3#mensagem');
+const h3 = document.querySelector('h3#mensagem');
 const banners = ['Os melhores do Brasil!', 'Qualidade e preço baixo!'];
 let  contador = 0;
 
 function trocarBanner() {
 	contador = (contador + 1) % 2;
 
-	h2.textContent = banners[contador];
+	h3.textContent = banners[contador];
 };
 
 setInterval(trocarBanner, 2000);
